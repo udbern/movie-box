@@ -36,7 +36,7 @@ function Main() {
           alt={movie?.title}
           loading="lazy"
         />
-        <div className=" absolute w-full top-[30%]  md:top-[20%] left-[2%] md:left-[8%] p-4 md:p-8 space-y-5  ">
+        <div className=" absolute w-full top-[30%]  md:top-[20%] left-0 md:left-[8%] p-4 md:p-8 space-y-5  ">
           <h1 className=" capitalize w-[404px]  text-white  text-3xl md:text-5xl font-bold ">
             {movie?.title}
           </h1>
